@@ -12,7 +12,7 @@ body {
 
 
 .container {
-  width: 800px;
+  max-width: 800px;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@ body {
 }
 
 .box-bacground-left {
-  width: 330px;
+  max-width: 330px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100;
@@ -88,7 +88,7 @@ body {
 }
 
 .box-bacground-right {
-  width: 320px;
+  max-width: 320px;
   height: 200px;
   font-family: 'Roboto';
   font-style: normal;
@@ -183,8 +183,61 @@ body {
 
 
 
-@media only screen and(max-withd: 870px) {
-      .container {
-        display: inline;
-      }
+
+
+@media only screen and (max-width: 800px) {
+    .container {
+      max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+  .container {
+    max-width: 220px;
+  }
+  
+  
+  
+  .box-auto {
+    max-width: 300px;
+    padding: 15px;
+    height: 300px;
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .container {
+    max-width: 220px;
+  }
+
+  .box-auto {
+    max-width: 300px;
+    padding: 10px;
+  }
+
+  .box-auto__heading {
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    top: 50px;
+  }
+  
+  .box-auto {
+    top: 50px;
+    max-width: 220px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .container {
+    top: 20px;
+  }
+  
+    
 }
