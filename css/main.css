@@ -5,6 +5,15 @@ body {
   background-repeat: no-repeat;
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 
 .container {
@@ -122,6 +131,10 @@ body {
 .box-auto__heading {
   font-family: 'Roboto';
   font-style: normal;
+  font-family: Arial, sans-serif;
+  animation-name: rotate;
+  animation-duration: 2s;
+
   font-weight: 600;
   font-size: 32px;
 }
