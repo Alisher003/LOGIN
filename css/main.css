@@ -10,7 +10,7 @@ body {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  background-color: #4635a4ac;
+  background-color: #3f2da8f5;
   align-items: center;
   padding: 30px;
   margin: 150px auto;
@@ -99,12 +99,12 @@ body {
 
 .box-auto-left {
   transform: translate(105%);
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .box-auto-right {
   transform: translate(-2%);
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .box-auto__heading {
@@ -124,13 +124,16 @@ body {
 
 .box-auto__inputFullName {
   border: transparent;
+  outline: none;
 }
 
 .box-auto__inputName {
+  outline: none;
   border: transparent;
 }
 
 .box-auto__inputPassword {
+  outline: none;
   border: transparent;
 }
 
