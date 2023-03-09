@@ -2,6 +2,8 @@ body {
   background-image: url(https://wallup.net/wp-content/uploads/2015/12/190406-nature-landscape-clouds-bird039s_eye_view-blue-sky.jpg);
   background-repeat: no-repeat;  
   background-attachment: fixed;
+  width: 100%;
+  overflow: hidden;
 }
 
 
