@@ -20,4 +20,3 @@ elBoxRightBtn.addEventListener("click", function() {
   elboxAutoSignUp.style.display = "none"
   elboxAutoLogin.style.display = "inline";
 })
-
