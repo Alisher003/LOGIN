@@ -140,16 +140,22 @@ body {
 .box-auto__inputFullName {
   border: transparent;
   outline: none;
+  animation-name: fadein;
+  animation-duration: 2s;
 }
 
 .box-auto__inputName {
   outline: none;
   border: transparent;
+  animation-name: fadein;
+  animation-duration: 2s;
 }
 
 .box-auto__inputPassword {
   outline: none;
   border: transparent;
+  animation-name: fadein;
+  animation-duration: 2s;
 }
 
 .box-auto__btn {
